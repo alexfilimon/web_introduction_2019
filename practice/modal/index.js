@@ -1,0 +1,1 @@
+$(".wrap").addClass("hello-class");
