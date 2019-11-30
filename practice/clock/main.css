@@ -125,3 +125,34 @@
 .digit.nine .d4, .digit.nine .d5, .digit.nine .d7 {
     opacity: 1;
 }
+
+/* Zero */
+
+.digit.zero .d1, .digit.zero .d3,
+.digit.zero .d4, .digit.zero .d5, .digit.zero .d6, .digit.zero .d7 {
+    opacity: 1;
+}
+
+/* Triangles */
+
+.digit .d::before, .digit .d::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 20px solid rgba(0, 0, 0, 0);
+    position: absolute;
+}
+
+.digit .d1::before, .digit .d2::before, .digit .d3::before {
+    left: -40px;
+    top: 0;
+    border-color: rgba(0, 0, 0, 0);
+    border-right-color: #fff;
+}
+
+.digit .d1::after, .digit .d2::after, .digit .d3::after {
+    right: -40px;
+    top: 0;
+    border-color: rgba(0, 0, 0, 0);
+    border-left-color: #fff;
+}
