@@ -2,6 +2,6 @@
 
 * [Презентация](keynote.pdf)
 
-# Практика "часы"
+* [Репозиторий с часами](https://github.com/alexfilimon/clock/)
 
-
+* [Рабочие часы](http://static.alexfilimon.ru/clock/)

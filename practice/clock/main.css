@@ -23,6 +23,7 @@
     position: absolute;
     background-color: #fff;
     opacity: 0.2;
+    transition: opacity 0.5s ease;
 }
 
 .digit .d1, .digit .d2, .digit .d3 {
