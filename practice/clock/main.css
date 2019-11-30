@@ -11,3 +11,117 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.digit {
+    position: relative;
+    width: 350px;
+    height: 560px;
+    border: 1px solid red;
+}
+
+.digit .d {
+    position: absolute;
+    background-color: #fff;
+    opacity: 0.2;
+}
+
+.digit .d1, .digit .d2, .digit .d3 {
+    left: 50px;
+    right: 50px;
+    height: 40px;
+}
+
+.digit .d1 {
+    top: 0;
+}
+
+.digit .d2 {
+    top: 50%;
+    margin-top: -20px;
+}
+
+.digit .d3 {
+    bottom: 0;
+}
+
+.digit .d4, .digit .d5, .digit .d6, .digit .d7 {
+    width: 40px;
+    height: 200px;
+}
+
+.digit .d4, .digit .d5 {
+    top: 50px;
+}
+
+.digit .d6, .digit .d7 {
+    bottom: 50px;
+}
+
+.digit .d4, .digit .d6 {
+    left: 0;
+}
+
+.digit .d5, .digit .d7 {
+    right: 0;
+}
+
+/* One */
+
+.digit.one .d5, .digit.one .d7 {
+    opacity: 1;
+}
+
+/* Two */
+
+.digit.two .d1, .digit.two .d2, .digit.two .d3,
+.digit.two .d5, .digit.two .d6 {
+    opacity: 1;
+}
+
+/* Three */
+
+.digit.three .d1, .digit.three .d2, .digit.three .d3,
+.digit.three .d5, .digit.three .d7 {
+    opacity: 1;
+}
+
+/* Four */
+
+.digit.four .d2,
+.digit.four .d4, .digit.four .d5, .digit.four .d7 {
+    opacity: 1;
+}
+
+/* Five */
+
+.digit.five .d1, .digit.five .d2, .digit.five .d3,
+.digit.five .d4, .digit.five .d7 {
+    opacity: 1;
+}
+
+/* Six */
+
+.digit.six .d1, .digit.six .d2, .digit.six .d3,
+.digit.six .d4, .digit.six .d6, .digit.six .d7 {
+    opacity: 1;
+}
+
+/* Seven */
+
+.digit.seven .d1,
+.digit.seven .d5, .digit.seven .d7 {
+    opacity: 1;
+}
+
+/* Eight */
+
+.digit.eight .d {
+    opacity: 1;
+}
+
+/* Nine */
+
+.digit.nine .d1, .digit.nine .d2, .digit.nine .d3,
+.digit.nine .d4, .digit.nine .d5, .digit.nine .d7 {
+    opacity: 1;
+}

@@ -1,1 +1,1 @@
-$(".wrap .digit").addClass("one");
+// $(".wrap .digit").addClass("one");
